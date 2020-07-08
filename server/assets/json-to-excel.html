@@ -98,41 +98,4 @@
     document.body.removeChild(link);
   }
 
-
-  // function replaceSpecialCharacters(str) {
-  //   const result = str.replace(/"/g, '').replace(/amp;/g, '')
-
-  //   let ready = unicodeToChar(result) // perhaps this can do the job completely
-  //   let counter = 0
-
-  //   console.log(ready)
-  //   while (ready.indexOf('\\u') !== -1) {
-  //     alert("drinnen")
-  //     const index = ready.indexOf('\\u')
-  //     console.log('Michael')
-  //     console.log(ready.substr(index, 5))
-  //     console.log()
-  //     ready = ready.replace(ready.substr(index, 5), String.fromCharCode(parseInt(ready.substr(index + 1, 4), 16)))
-  //   }
-  //   while (ready.indexOf('%u') !== -1) {
-  //     alert("draußen")
-  //     const index = ready.indexOf('\\u')
-  //     console.log('Michael')
-  //     console.log(ready.substr(index, 5))
-  //     console.log()
-  //     ready = ready.replace(ready.substr(index, 5), String.fromCharCode(parseInt(ready.substr(index + 1, 4), 16)))
-  //   }
-
-  //   return ready
-  // }
-
-  // function unicodeToChar(text) {
-  //   return text.replace(/\\u[\dA-F]{4}/gi,
-  //     // tslint:disable-next-line: only-arrow-functions
-  //     function (match) {
-  //       return String.fromCharCode(parseInt(match.replace(/\\u/g, ''), 16))
-  //     })
-  // }
-
-
 </script>
